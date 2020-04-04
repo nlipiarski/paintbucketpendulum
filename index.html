@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PBP</title>
+	<link rel="icon" href="https://stacksofcode.com/nate/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<section id="canvas-holder">
+		<canvas id="drawing" width="1920" height="1920">
+			Looks like your browser doesn't support canvases.
+		</canvas>
+	</section>
+	<section id="controls">
+		<button id="start">
+			Run Simulation
+		</button>
+		<div>
+			<span>Start distance:</span>
+			<input
+				id="r"
+				type="range"
+				min="0"
+				max="1100"
+				step="any"
+				value="900" />
+		</div>
+		<div>
+			<span>Start angle:</span>
+			<input
+				id="omega"
+				type="range"
+				min="-3.1415926"
+				max="3.1415926"
+				step="any"
+				value="0" />
+		</div>
+		<div>
+			<span>Start velocity:</span>
+			<input
+				id="v"
+				type="range"
+				min="-100"
+				max="100"
+				step="any"
+				value="10" />
+		</div>
+		<div>
+			<span>Gravity strength:</span>
+			<input
+				id="g"
+				type="range"
+				min="0"
+				max="100"
+				step="any"
+				value="10" />
+		</div>
+		<div>
+			<span>Time:</span>
+			<input id="time"
+				type="range"
+				min="0"
+				max="1000"
+				step="any"
+				value="200" />
+		</div>
+		<div>
+			<span>Resolution:</span>
+			<input 
+				id="resolution"
+				type="range"
+				min="0.01"
+				max="0.99"
+				step="any"
+				value="0.5" />
+		</div>
+		<div>
+			<span>Color line width:</span>
+			<input 
+				id="color-width"
+				type="range"
+				min="10"
+				max="60"
+				step="1"
+				value="15" />
+		</div>
+		<div>
+			<span>Color spin speed:</span>
+			<input 
+				id="color-speed"
+				type="range"
+				min="0"
+				max="1"
+				step="any"
+				value="0.3" />
+		</div>
+		<div>
+			<span>Color radius:</span>
+			<input 
+				id="color-radius"
+				type="range"
+				min="10"
+				max="120"
+				step="1"
+				value="60" />
+		</div>
+		<div>
+			<span>Number of Colors:</span>
+			<input
+				id="num-colors"
+				type="range"
+				min="1"
+				max="10"
+				step="1"
+				value="4" />
+		</div>
+		<div>
+			<span>Color 1:</span>
+			<input
+				id="color1"
+				type="color"
+				value="#ff7793" />
+		</div>
+		<div>
+			<span>Color 2:</span>
+			<input
+				id="color2"
+				type="color"
+				value="#d071ff" />
+		</div>
+		<div>
+			<span>Color 3:</span>
+			<input
+				id="color3"
+				type="color"
+				value="#73b6ff" />
+		</div>
+		<div>
+			<span>Color 4:</span>
+			<input
+				id="color4"
+				type="color"
+				value="#71ffad" />
+		</div>
+		<div>
+			<span>Color 5:</span>
+			<input
+				id="color5"
+				type="color"
+				value="#000000" />
+		</div>
+		<div>
+			<span>Color 6:</span>
+			<input
+				id="color6"
+				type="color"
+				value="#000000" />
+		</div>
+		<div>
+			<span>Color 7:</span>
+			<input
+				id="color7"
+				type="color"
+				value="#000000" />
+		</div>
+		<div>
+			<span>Color 8:</span>
+			<input
+				id="color8"
+				type="color"
+				value="#000000" />
+		</div>
+		<div>
+			<span>Color 9:</span>
+			<input
+				id="color9"
+				type="color"
+				value="#000000" />
+		</div>
+		<div>
+			<span>Color 10:</span>
+			<input
+				id="color10"
+				type="color"
+				value="#000000" />
+		</div>
+	</section>
+</body>
+</html>

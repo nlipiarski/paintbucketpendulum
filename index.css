@@ -1,0 +1,35 @@
+html {
+	padding: 0px;
+	margin: 0px;
+	background-color: #d1eaff;
+}
+
+body {
+	margin: 60px 10%;
+	width: 80%;
+	text-align: center;
+}
+
+#canvas-holder {
+	width: 50%;
+	float: left;
+}
+
+#drawing {
+	width: 100%;
+	border: 2px solid #CCC;
+	background-color: white;
+}
+
+#controls {
+	display: inline-block;
+	padding: 25px 50px;
+	background-color: #CCC;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+#controls div {
+	text-align: right;
+	margin-bottom: .5em;
+}
